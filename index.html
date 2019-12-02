@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NoteApp-JS</title>
+
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <div class="note__form note-template" id="note-config">
+      <div class="note__content">
+        <div class="note-content">
+          <label for="note-title">Title: </label>
+          <input
+            type="text"
+            name="Title"
+            id="note-title"
+            placeholder="Enter a note title ..."
+            maxlength="20"
+          />
+        </div>
+        <div class="note-content">
+          <textarea
+            name="text-box"
+            id="text-box"
+            placeholder="Enter a note Description ..."
+          ></textarea>
+        </div>
+        <div class="btn__actions">
+          <button id="note-cancel-btn" class="btn btn--passive">Cancel</button>
+          <button id="note-add-btn" class="btn btn--success">Create</button>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <h1>Note Application</h1>
+      <button>CREATE NOTE</button>
+    </header>
+    <div id="notes"></div>
+  </body>
+</html>
