@@ -94,7 +94,9 @@ if (localStorage.length > 0) {
   const all_notes = { ...localStorage };
 
   for (note in all_notes) {
-    createNote(note, localStorage.getItem(note));
+    const n = localStorage.getItem(note);
+    n.innerHTML = n.innerHTML.replace(/\n/g, "<br>\n");
+    createNote(note, n);
   }
 }
 
