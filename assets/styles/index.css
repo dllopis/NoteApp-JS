@@ -4,9 +4,14 @@
 html {
   font-family: 'Times New Roman', Times, serif;
 }
+/*
+https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg1.jpeg
+https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg2.jpeg
+https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg3.jpeg
+*/
 body {
   margin: 0;
-  background-image: url(/assets/img/bg2.jpeg);
+  background-image: url("https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg2.jpeg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -201,7 +206,7 @@ header button:active,
   z-index: 10;
   pointer-events: none;
   display: none;
-  background-image: url(/assets/img/bg3.jpeg);
+  background-image: url("https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
