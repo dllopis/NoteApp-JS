@@ -4,14 +4,9 @@
 html {
   font-family: 'Times New Roman', Times, serif;
 }
-/*
-https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg1.jpeg
-https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg2.jpeg
-https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg3.jpeg
-*/
 body {
   margin: 0;
-  background-image: url("https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg2.jpeg");
+  background-image: url('https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg2.jpeg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -32,7 +27,7 @@ header {
 }
 header h1 {
   margin: 0;
-  color: white;
+  color: #fdfdfd;
   font-size: 1.5rem;
 }
 header button {
@@ -55,18 +50,18 @@ header button:active,
   font-weight: bold;
 }
 .note {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   font-family: cursive;
   font-size: 1.1rem;
   font-weight: bold;
-  width: 90%;
-  height: 2rem;
+  width: 95%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   background: #ffffff;
   border: 1px solid black;
   border-radius: 10px;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 0.5rem;
 }
 
@@ -76,13 +71,15 @@ header button:active,
 .note:active {
   background: #f3cc4b;
 }
-
+.note-button-container {
+  display: flex;
+}
 .btn-note {
   background: #1f1bdd;
   border: 1px solid #fdfdfd;
   color: white;
   border-radius: 6px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 1px 8px #000000;
   cursor: pointer;
 }
 
@@ -206,7 +203,7 @@ header button:active,
   z-index: 10;
   pointer-events: none;
   display: none;
-  background-image: url("https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg3.jpeg");
+  background-image: url('https://raw.githubusercontent.com/dllopis/NoteApp-JS/master/assets/img/bg3.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }

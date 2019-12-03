@@ -23,6 +23,7 @@ const createNote = (title, text) => {
   const viewBtn = document.createElement('button');
 
   note.classList = 'note';
+  noteBtnContainer.className = 'note-button-container';
   noteBody.className = 'note-body';
   deleteBtn.className = 'btn-note';
   deleteBtn.textContent = 'DELETE';
@@ -116,7 +117,7 @@ if (localStorage.length > 0) {
   const all_notes = { ...localStorage };
 
   for (note in all_notes) {
-    createNote(note, localStorage.getItem(note));
+    createNote(note, JSON.parse(localStorage.getItem(note)));
   }
 }
 createBtn.addEventListener('click', createNoteHandler);
