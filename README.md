@@ -1,6 +1,9 @@
 # NoteApp-JS
 Basic note application with JavaScript/ HTML / CSS
 
-Current Features:
+Current Features and updates:
 * hosted with github-pages: https://dllopis.github.io/NoteApp-JS/
-* local storage implemented - Notes will load when browser opens.
+* Notes are dynamically created and appended to DOM using JS.
+* View and Delete button implemented with event listeners attached.
+* Local storage implemented - Notes will load when browser opens.
+* Replaced alert box prompt with pop up element to confirm deletion of note.
