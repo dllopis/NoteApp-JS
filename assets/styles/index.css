@@ -6,7 +6,7 @@ html {
 }
 body {
   margin: 0;
-  background-image: url(/assets/img/appBG-2.jpeg);
+  background-image: url(/assets/img/bg2.jpeg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -201,7 +201,7 @@ header button:active,
   z-index: 10;
   pointer-events: none;
   display: none;
-  background-image: url(/assets/img/appBG-3.jpeg);
+  background-image: url(/assets/img/bg3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
