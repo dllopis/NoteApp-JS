@@ -119,5 +119,4 @@ if (localStorage.length > 0) {
     createNote(note, localStorage.getItem(note));
   }
 }
-
 createBtn.addEventListener('click', createNoteHandler);

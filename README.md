@@ -7,3 +7,4 @@ Current Features and updates:
 * View and Delete button implemented with event listeners attached.
 * Local storage implemented - Notes will load when browser opens.
 * Replaced alert box prompt with pop up element to confirm deletion of note.
+* Added background images to give life to note application.

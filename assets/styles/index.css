@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   font-family: 'Times New Roman', Times, serif;
 }
-
 body {
   margin: 0;
+  background-image: url(/assets/img/appBG-2.jpeg);
+  background-attachment: fixed;
+  background-size: auto;
 }
 button:focus {
   outline: none;
@@ -23,16 +24,23 @@ header {
   height: 5rem;
   align-items: center;
   padding: 0 2.5rem;
-  background: #77a2ff;
-  border-bottom: 0.7rem solid #8c7bf1;
-}
+  background-color: #ffffff;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    0deg,
+    #ffffff 0%,
+    #a0acd6 50%,
+    #f9eff9 100%
+  );
 
+  /* background: #77a2ff;
+  border-bottom: 0.7rem solid #8c7bf1; */
+}
 header h1 {
   margin: 0;
   color: white;
   font-size: 1.5rem;
 }
-
 header button {
   padding: 0.5rem 0.5rem;
   background: #ce20a2;
@@ -56,6 +64,7 @@ header button:active,
   padding: 0 1rem;
   font-family: cursive;
   font-size: 1.1rem;
+  font-weight: bold;
   width: 100%;
   height: 2rem;
   display: flex;
@@ -86,6 +95,7 @@ header button:active,
   background: white;
   border-radius: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-size: contain;
 }
 
 .note__form {
@@ -97,6 +107,7 @@ header button:active,
   display: none;
   padding: 1rem;
   border: 5px double rgb(218, 214, 30);
+  background-color: #ececec;
 }
 
 .note__form.visible {
@@ -202,6 +213,9 @@ header button:active,
   z-index: 10;
   pointer-events: none;
   display: none;
+  background-image: url(/assets/img/appBG-3.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #backdrop.visible {
@@ -213,8 +227,6 @@ header button:active,
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #77a2ff;
-  border: 0.1rem solid #19123d;
 }
 
 #backdrop.visible {
