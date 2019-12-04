@@ -13,3 +13,4 @@ Bugs / Issues noticed:
 * Scale/fit background images accordingly
 * Notes that reach the end of the screen will continue without scrolling.
 * Viewing notes looks undesireable- pop-out with backdrop might be good.
+* Added a favicon to remove error in console.
