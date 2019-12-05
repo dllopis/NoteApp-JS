@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Arial, serif;
 }
 body {
   margin: 0;
@@ -14,8 +14,8 @@ button:focus {
   outline: none;
 }
 label {
-  font-family: cursive;
-  font-size: 1.5rem;
+  /* font-family: cursive; */
+  font-size: 2rem;
 }
 header {
   display: flex;
@@ -51,7 +51,6 @@ header button:active,
 }
 .note {
   padding: 1rem 1rem;
-  font-family: cursive;
   font-size: 1.1rem;
   font-weight: bold;
   width: 95%;
@@ -71,10 +70,11 @@ header button:active,
 .note:active {
   background: #f3cc4b;
 }
-.note-button-container {
-  display: flex;
-}
+
 .btn-note {
+  font: inherit;
+  font-size: 0.6rem;
+  height: 1.5rem;
   background: #1f1bdd;
   border: 1px solid #fdfdfd;
   color: white;
@@ -87,14 +87,13 @@ header button:active,
   position: fixed;
   z-index: 100;
   width: 80%;
-  top: 30vh;
+  top: 10vh;
   left: 10%;
   display: none;
 }
 
 .note__form.visible {
   display: block;
-  animation: fade-slide-in 0.3s ease-out forwards;
 }
 .note-template {
   background-color: #e2e2e2;
@@ -105,20 +104,19 @@ header button:active,
 }
 
 .note-body {
-  font-family: cur;
   font-size: 1.2rem;
-  color: gold;
+  text-align: center;
+  width: auto;
+  color: rgb(0, 0, 0);
   display: none;
   padding: 1rem;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border: 8px double silver;
+  border-radius: 5px;
   background-color: white;
 }
 
 .note-body.visible {
   display: block;
-  height: 100%;
-  width: 100%;
 }
 
 .btn__actions {
@@ -127,7 +125,7 @@ header button:active,
 }
 
 .btn__actions button {
-  font: inherit;
+  font-family: 'BioRhyme Expanded', serif;
   padding: 0.5rem 0.5rem;
   background: #ce20a2;
   border: 1px solid #fdfdfd;
@@ -145,7 +143,6 @@ header button:active,
 }
 
 .confirm-box {
-  font-family: cursive;
   font-size: 1.5rem;
   display: flex;
   position: fixed;
@@ -171,7 +168,6 @@ header button:active,
 }
 
 .confirm-box-btns button {
-  font: inherit;
   width: 5rem;
   height: 3rem;
   padding: 0.5rem 0.5rem;
@@ -230,15 +226,13 @@ header button:active,
 }
 
 #note-title {
-  font-size: 1rem;
-  font-family: cursive;
-  border: 3px double black;
+  font-size: 0.9rem;
+  border: 2px double black;
   padding: 0 0.2rem;
   outline: none;
 }
 #text-box {
   font-size: 16pt;
-  font-family: cursive;
   margin: 1rem 0;
   padding: 0.5rem;
   width: 100%;

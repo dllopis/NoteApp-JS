@@ -61,7 +61,7 @@ const deleteNote = (note, noteBody, title) => {
   confirmBox.className = 'confirm-box';
   confirmBoxBtns.className = 'confirm-box-btns';
 
-  confirmBoxMsg.textContent = 'Do you really want to delete this note?';
+  confirmBoxMsg.textContent = 'Confirm Deletion:';
   yesBtn.textContent = 'Yes';
   noBtn.textContent = 'No';
 

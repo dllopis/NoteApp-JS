@@ -8,9 +8,7 @@ Current Features and updates:
 * Local storage implemented - Notes will load when browser opens.
 * Replaced alert box prompt with pop up element to confirm deletion of note.
 * Added background images to give life to note application.
+* Styled notes to look decent - will think of a better look
 
 Bugs / Issues noticed:
-* Scale/fit background images accordingly
-* Notes that reach the end of the screen will continue without scrolling.
-* Viewing notes looks undesireable- pop-out with backdrop might be good.
-* Added a favicon to remove error in console.
+* Favicon issue not fixed - works local, but not live.
